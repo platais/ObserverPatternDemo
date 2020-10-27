@@ -6,6 +6,6 @@ namespace ObserverPattern
 {
     interface IObserver
     {
-        void Update(ISubject subject);
+        void Update(IWeatherStation subject);
     }
 }

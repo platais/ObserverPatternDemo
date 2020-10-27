@@ -13,7 +13,7 @@ namespace ObserverPattern
             AgencyName = name;
         }
 
-        public void Update(ISubject subject)
+        public void Update(IWeatherStation subject)
         {
             WeatherStation weatherStation = subject as WeatherStation;
             if (weatherStation != null)

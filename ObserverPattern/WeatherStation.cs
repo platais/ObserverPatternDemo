@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ObserverPattern
 {
-    class WeatherStation: ISubject
+    class WeatherStation: IWeatherStation
     {
         private List<IObserver> _observers;
 

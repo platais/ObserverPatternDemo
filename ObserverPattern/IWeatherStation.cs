@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ObserverPattern
 {
-    interface ISubject
+    interface IWeatherStation
     {
         void Attach(IObserver observer);
         void Notify();
